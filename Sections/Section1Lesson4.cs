@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace parallel
 {
 
-    internal static class Section2Lesson4
+    internal static class Section1Lesson4
     {
 
         public static void FirstTest()

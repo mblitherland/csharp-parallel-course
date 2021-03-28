@@ -3,7 +3,7 @@ namespace parallel
     using System;
     using System.Threading.Tasks;
 
-    internal static class Section2Lesson3
+    internal static class Section1Lesson3
     {
 
         public static void Write(char c)

@@ -4,7 +4,7 @@ namespace parallel
     using System.Threading;
     using System.Threading.Tasks;
 
-    internal static class Section2Lesson5
+    internal static class Section1Lesson5
     {
         public static void FirstTest()
         {

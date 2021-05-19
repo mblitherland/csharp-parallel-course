@@ -34,6 +34,30 @@ namespace parallel
                 where.Deposit(amount);
             }
         }
+            
+        // This doesn't seem to work as described in the class. I'm not sure if
+        // it's related to WSL or .net5.0 or there's some other error. It looks
+        // correct compared to the demo.
+        public static void SecondTest()
+        {
+            const string appName = "Section2Lession13";
+            Mutex mutex;
+
+            try
+            {
+                mutex = Mutex.OpenExisting(appName);
+                Console.WriteLine($"Sorry, {appName} is already running");
+            }
+            catch (WaitHandleCannotBeOpenedException _)
+            {
+                Console.WriteLine("We can run the program just fine");
+                mutex = new Mutex(false, appName);
+            }
+
+            Console.WriteLine("Waiting on key press");
+            Console.ReadKey();
+            mutex.ReleaseMutex();
+        }
 
         public static void FirstTest()
         {

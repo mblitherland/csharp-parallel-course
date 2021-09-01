@@ -18,9 +18,10 @@
             // Section2Lesson11.FirstTest();
             // Section2Lesson12.FirstTest();
             // Section2Lesson12.SecondTest();
-            // Section2Lesson13.FirstTest();
+            Section2Lesson13.FirstTest();
             // Section2Lesson13.SecondTest();
-            Section2Lesson14.FirstTest();
+            // Section2Lesson14.FirstTest();
+            // Section3Lesson17.FirstTest();
         }
     }
 }

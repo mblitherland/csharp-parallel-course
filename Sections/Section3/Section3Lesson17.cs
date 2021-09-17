@@ -57,6 +57,7 @@ namespace parallel
             }
             ShowCapital(toRemove);
 
+            // Iterating and getting a count can be time-consuming
             Console.WriteLine("Iterating through capitals");
             foreach (var entry in capitals)
             {

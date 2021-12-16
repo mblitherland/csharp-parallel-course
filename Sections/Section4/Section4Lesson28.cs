@@ -20,6 +20,7 @@ namespace parallel
                 Thread.Sleep(1000);
                 Console.WriteLine("Water is boiling");
                 evt.Set();
+                // There's a evt.Reset() too.
             });
 
             var makeTea = Task.Factory.StartNew(() =>

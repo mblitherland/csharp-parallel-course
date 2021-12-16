@@ -37,7 +37,11 @@
             // Section5Lesson32.FirstTest();
             // Section5Lesson33.FirstTest();
             // Section5Lesson34.FirstTest();
-            Section5Lesson35.FirstTest();
+            
+            // Benchmark requires: dotnet run --configuration Release
+            // Section5Lesson35.FirstTest();
+            
+            Section6Lesson38.FirstTest();
         }
     }
 }
